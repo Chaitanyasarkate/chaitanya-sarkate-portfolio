@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chaitanya Sarkate | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="favicon.ico" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Chaitanya Sarkate</h1>
+    <nav>
+      <a href="index.html" class="active">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+      <a href="resume.pdf" target="_blank">Resume</a>
+      <button onclick="document.body.classList.toggle('dark-mode')">🌙</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Hi, I'm <span class="typed-text">Chaitanya</span> 👋</h2>
+      <p>A passionate B.E. Computer Science student focused on <strong>web development</strong>, <strong>AI</strong>, and building impactful projects.</p>
+      <a href="projects.html" class="btn">🚀 View My Work</a>
+    </section>
+
+    <section class="highlights">
+      <h2>Why Hire Me?</h2>
+      <ul>
+        <li>✅ Built multiple full-stack and frontend projects</li>
+        <li>✅ Experience with modern web technologies (HTML, CSS, JS, Firebase, etc.)</li>
+        <li>✅ Fast learner and strong problem-solving skills (Leetcode enthusiast)</li>
+        <li>✅ Team player with excellent communication and collaboration ability</li>
+      </ul>
+    </section>
+  </main>
+
+  <script>
+    const texts = ["Chaitanya", "a Web Developer", "an Android Enthusiast", "a Tech Explorer"];
+    let count = 0, index = 0, currentText = "", letter = "";
+
+    (function type() {
+      if (count === texts.length) count = 0;
+      currentText = texts[count];
+      letter = currentText.slice(0, ++index);
+      document.querySelector(".typed-text").textContent = letter;
+      if (letter.length === currentText.length) {
+        count++;
+        index = 0;
+        setTimeout(type, 1500);
+      } else {
+        setTimeout(type, 100);
+      }
+    })();
+  </script>
+</body>
+</html>
