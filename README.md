@@ -8,10 +8,14 @@ I’m a passionate Computer Engineering student focused on **Web Development**, 
 ---
 
 ## 📸 Preview
-![Portfolio Screenshot]
+
+**Home**:
 <img width="1366" height="768" alt="Screenshot (35)" src="https://github.com/user-attachments/assets/6baefc40-a652-4fd0-ae95-07152870056f" />
+**About Me**:
 <img width="1366" height="768" alt="Screenshot (36)" src="https://github.com/user-attachments/assets/bdaf72e2-67d1-4207-8a02-65fa9602fda7" />
+**🚀 My Projects**:
 <img width="1366" height="768" alt="Screenshot (37)" src="https://github.com/user-attachments/assets/f6f66ef5-8f98-4478-815d-50143c84010f" />
+**Connect whit me**:
 <img width="1366" height="768" alt="Screenshot (38)" src="https://github.com/user-attachments/assets/6c3caf68-4fdd-4b8e-9489-354fd11350c5" />
 
 
