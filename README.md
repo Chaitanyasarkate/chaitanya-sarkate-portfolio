@@ -42,6 +42,7 @@ I’m a passionate Computer Engineering student focused on **Web Development**, 
 ---
 
 ## 🛠️ Tech Stack
+
 - **HTML5**  
 - **CSS3** (Responsive + Animations)  
 - **JavaScript**  
@@ -71,12 +72,14 @@ I’m a passionate Computer Engineering student focused on **Web Development**, 
 ## 🚀 Getting Started
 
 1. **Clone this repository**
+
    ```bash
    git clone https://github.com/Chaitanyasarkate/portfolio-website.git
 Open index.html in your browser
 That’s it – no build tools required! 🎉
 
 🌐 Live Deployment
+
 This site is live on Netlify:
 👉 https://chaitanya-sarkate-portfolio.netlify.app/
 
